@@ -1,0 +1,18 @@
+PODS:
+  - MKDropdownMenu (1.4)
+  - NSGIF (1.2.4)
+  - UIGifImage (0.0.3)
+
+DEPENDENCIES:
+  - MKDropdownMenu
+  - NSGIF (~> 1.0)
+  - UIGifImage
+
+SPEC CHECKSUMS:
+  MKDropdownMenu: 269df4a41d21a1db684ce8bc709befe419fc5bae
+  NSGIF: 442808fd1667ebac3d09046c3f6d4bdd6720cded
+  UIGifImage: 7a38a4be53ed444d5db9e05743d69ea34df5ca35
+
+PODFILE CHECKSUM: 60676b5ee08c9a485fa8f46f79c6315773c10531
+
+COCOAPODS: 1.3.1

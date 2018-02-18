@@ -1,0 +1,27 @@
+/* 
+  localizable.strings
+  Live Photo Frame Picker
+
+  Created by Marwan Harb on 6/12/17.
+  Copyright © 2017 Apps & Games. All rights reserved.
+*/
+
+"DOES_NOT_HAVE_ACCESS" = "This app doesn't have access to your photo library";
+"ALLOW" = "Allow";
+
+"GRANT_ACCESS_TITLE" = "Grant Access";
+"GRANT_ACCESS_STATEMENT" = "Unfortunately, this application requires access to the gallery.\n\nPress the button below to grant access to the gallery.";
+
+"APP_SETTINGS_TITLE" = "App Settings";
+"APP_SETTINGS_STATEMENT" = "Unfortunately, this application requires access to the gallery.\n\nPress the button below to go to the settings and allow access to the gallery.";
+
+"OK" = "OK";
+"SUCCESS" = "Success!";
+"ERROR" = "Error!";
+"DONE" = "Done";
+
+"VIDEO_SAVED_SUCCESSFULLY" = "The video has been saved successfully!";
+"ERROR_SAVING_VIDEO" = "There was an error saving the video. Please try again.";
+"ERROR_CREATING_GIF" = "There was an error creating the gif. Please try again.";
+"ERROR_PARSING_LIVE_PHOTO" = "There was an error parsing the LivePhoto. Please try again.";
+"ERROR_SHARING_IMAGE" = "There was an error while sharing your image. Please try again.";

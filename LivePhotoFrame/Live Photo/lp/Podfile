@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Live Photo Frame Picker' do
+
+  # Pods for Live Photo Frame Picker
+  pod ‘NSGIF’, ‘~> 1.0’
+  pod ‘UIGifImage’
+  pod 'MKDropdownMenu'
+
+end
+
+target 'Live Photo Frame Picker iMessage’ do
+  pod ‘NSGIF’, ‘~> 1.0’
+  pod ‘UIGifImage’
+  pod 'MKDropdownMenu'
+end
+
+target 'Live Photo Frame Picker Action’ do
+  pod ‘NSGIF’, ‘~> 1.0’
+  pod ‘UIGifImage’
+end

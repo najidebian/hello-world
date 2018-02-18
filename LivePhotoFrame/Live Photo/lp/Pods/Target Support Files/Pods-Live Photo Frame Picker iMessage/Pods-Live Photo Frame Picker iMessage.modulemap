@@ -1,0 +1,6 @@
+framework module Pods_Live_Photo_Frame_Picker_iMessage {
+  umbrella header "Pods-Live Photo Frame Picker iMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

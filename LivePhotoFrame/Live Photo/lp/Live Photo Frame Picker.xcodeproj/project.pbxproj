@@ -1,0 +1,1207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69635DDDFACDA25E5E70ACCD /* Pods_Live_Photo_Frame_Picker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301587ACDCC63E1DC03FD7AA /* Pods_Live_Photo_Frame_Picker.framework */; };
+		8C13DA2D1EF94D63004E4B72 /* MainIpad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C13DA2B1EF94D63004E4B72 /* MainIpad.storyboard */; };
+		8C199CDB1EEAE0F000CAF416 /* FramePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C199CDA1EEAE0F000CAF416 /* FramePickerVC.m */; };
+		8C199CDE1EEAF01200CAF416 /* FramePickerVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C199CDD1EEAF01200CAF416 /* FramePickerVCCell.m */; };
+		8C1CB8E61F84D470008A9B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D55DC1F827A7900EEC068 /* Assets.xcassets */; };
+		8C1CB8EA1F84DACA008A9B52 /* ActionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CB8E81F84D8E8008A9B52 /* ActionUtils.m */; };
+		8C1CB8EE1F85090A008A9B52 /* ActionFramePickerVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CB8ED1F85035F008A9B52 /* ActionFramePickerVCCell.m */; };
+		8C240A9F1EF947B2009ED314 /* candara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C240A9D1EF947B2009ED314 /* candara.ttf */; };
+		8C240AA01EF947B2009ED314 /* candara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C240A9D1EF947B2009ED314 /* candara.ttf */; };
+		8C240AA11EF947B2009ED314 /* ocrastd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C240A9E1EF947B2009ED314 /* ocrastd.otf */; };
+		8C240AA21EF947B2009ED314 /* ocrastd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C240A9E1EF947B2009ED314 /* ocrastd.otf */; };
+		8C24186F1F94DBAE0093A4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D55DC1F827A7900EEC068 /* Assets.xcassets */; };
+		8C27660A1EE7E9DC007CCEF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2766091EE7E9DC007CCEF2 /* main.m */; };
+		8C27660D1EE7E9DC007CCEF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27660C1EE7E9DC007CCEF2 /* AppDelegate.m */; };
+		8C2766101EE7E9DC007CCEF2 /* PermissionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27660F1EE7E9DC007CCEF2 /* PermissionVC.m */; };
+		8C2766131EE7E9DC007CCEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2766111EE7E9DC007CCEF2 /* Main.storyboard */; };
+		8C2766161EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C2766141EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodeld */; };
+		8C27661B1EE7E9DC007CCEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2766191EE7E9DC007CCEF2 /* LaunchScreen.storyboard */; };
+		8C2766261EE7EB30007CCEF2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2766251EE7EB30007CCEF2 /* Utils.m */; };
+		8C27662A1EE801CD007CCEF2 /* LivePhotoPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2766291EE801CD007CCEF2 /* LivePhotoPickerVC.m */; };
+		8C4A3CB61EF151AD00E9F37A /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4A3CB51EF151AD00E9F37A /* Messages.framework */; };
+		8C4A3CBA1EF151AE00E9F37A /* IMMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A3CB91EF151AE00E9F37A /* IMMainVC.m */; };
+		8C4A3CBD1EF151AE00E9F37A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A3CBB1EF151AE00E9F37A /* MainInterface.storyboard */; };
+		8C4A3CC31EF151AE00E9F37A /* Live Photo Frame Picker Message.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C4A3CB41EF151AD00E9F37A /* Live Photo Frame Picker Message.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C4A3CCF1EF159AA00E9F37A /* IMLivePhotoCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A3CCE1EF159AA00E9F37A /* IMLivePhotoCVCell.m */; };
+		8C4A3CD71EF15F1700E9F37A /* IMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A3CD61EF15F1700E9F37A /* IMUtils.m */; };
+		8C6D0F8C1FA1F03800823F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A3CBE1EF151AE00E9F37A /* Assets.xcassets */; };
+		8C6F679B1F8F9CC10095A566 /* LivePhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F679A1F8F8B410095A566 /* LivePhotoModel.m */; };
+		8CA2DECD1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DECC1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework */; };
+		8CA2DECE1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DECC1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8CA2DED21EEE7A60002754D5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DED11EEE7A60002754D5 /* libc++.tbd */; };
+		8CA2DED41EEE7A6A002754D5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DED31EEE7A6A002754D5 /* libsqlite3.tbd */; };
+		8CA2DED61EEE7A76002754D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DED51EEE7A76002754D5 /* libz.tbd */; };
+		8CA2DED81EEE7A7F002754D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DED71EEE7A7F002754D5 /* MobileCoreServices.framework */; };
+		8CA2DEDA1EEE7A87002754D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DED91EEE7A87002754D5 /* SystemConfiguration.framework */; };
+		8CA2DEDC1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DEDB1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework */; };
+		8CA2DEDD1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA2DEDB1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8CA2DEE01EEE83CE002754D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CA2DEE21EEE83CE002754D5 /* Localizable.strings */; };
+		8CA8EF411FA9D85500A2E25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA8EF401FA9D85500A2E25B /* Assets.xcassets */; };
+		8CB607671EF7D00B00A2A86C /* IMFramePickerVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB607661EF7D00B00A2A86C /* IMFramePickerVCCell.m */; };
+		8CC8FE0A1F83DDEB0005A695 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE3CE101EE95ED60049CC86 /* Photos.framework */; };
+		8CC8FE0B1F83DDEB0005A695 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE3CE111EE95ED60049CC86 /* PhotosUI.framework */; };
+		8CDD55361EE835DD0082775A /* LivePhotoCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD55351EE835DD0082775A /* LivePhotoCVCell.m */; };
+		8CDE17EB1F83757E00809855 /* LivePhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE17EA1F83757E00809855 /* LivePhotoModel.m */; };
+		8CDE17F41F83C87A00809855 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE17F31F83C87A00809855 /* ActionViewController.m */; };
+		8CDE17F71F83C87A00809855 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE17F51F83C87A00809855 /* MainInterface.storyboard */; };
+		8CDE17FB1F83C87B00809855 /* Live Photo Frame Picker Action.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8CDE17F01F83C87A00809855 /* Live Photo Frame Picker Action.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8CE3CE0E1EE936670049CC86 /* PreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3CE0D1EE936670049CC86 /* PreviewVC.m */; };
+		8CE3CE121EE95ED60049CC86 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE3CE101EE95ED60049CC86 /* Photos.framework */; };
+		8CE3CE131EE95ED60049CC86 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE3CE111EE95ED60049CC86 /* PhotosUI.framework */; };
+		B748FAE34A10035957C5FD45 /* Pods_Live_Photo_Frame_Picker_iMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38753B0E63CFA648F1F5CE83 /* Pods_Live_Photo_Frame_Picker_iMessage.framework */; };
+		F91670806F0C3B3876D7C725 /* Pods_Live_Photo_Frame_Picker_Action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D398804CB0725A1467409C /* Pods_Live_Photo_Frame_Picker_Action.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4A3CC11EF151AE00E9F37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2765FD1EE7E9DC007CCEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4A3CB31EF151AD00E9F37A;
+			remoteInfo = "Live Photo Frame Picker iMessage";
+		};
+		8CDE17F91F83C87B00809855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2765FD1EE7E9DC007CCEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDE17EF1F83C87A00809855;
+			remoteInfo = "Live Photo Frame Picker Action";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C4A3CC71EF151AE00E9F37A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C4A3CC31EF151AE00E9F37A /* Live Photo Frame Picker Message.appex in Embed App Extensions */,
+				8CDE17FB1F83C87B00809855 /* Live Photo Frame Picker Action.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA2DECF1EEE79CD002754D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8CA2DEDD1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				8CA2DECE1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		133F56427D3EA8346A4EAEB7 /* Pods-Live Photo Frame Picker Action.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Photo Frame Picker Action.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live Photo Frame Picker Action/Pods-Live Photo Frame Picker Action.debug.xcconfig"; sourceTree = "<group>"; };
+		2C42ADA37502BE69D413903D /* Pods-Live Photo Frame Picker iMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Photo Frame Picker iMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live Photo Frame Picker iMessage/Pods-Live Photo Frame Picker iMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		301587ACDCC63E1DC03FD7AA /* Pods_Live_Photo_Frame_Picker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_Photo_Frame_Picker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38753B0E63CFA648F1F5CE83 /* Pods_Live_Photo_Frame_Picker_iMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_Photo_Frame_Picker_iMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CA760415868B245ECED0F8 /* Pods-Live Photo Frame Picker Action.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Photo Frame Picker Action.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live Photo Frame Picker Action/Pods-Live Photo Frame Picker Action.release.xcconfig"; sourceTree = "<group>"; };
+		8C13DA2C1EF94D63004E4B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainIpad.storyboard; sourceTree = "<group>"; };
+		8C199CD91EEAE0F000CAF416 /* FramePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramePickerVC.h; sourceTree = "<group>"; };
+		8C199CDA1EEAE0F000CAF416 /* FramePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramePickerVC.m; sourceTree = "<group>"; };
+		8C199CDC1EEAF01200CAF416 /* FramePickerVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramePickerVCCell.h; sourceTree = "<group>"; };
+		8C199CDD1EEAF01200CAF416 /* FramePickerVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramePickerVCCell.m; sourceTree = "<group>"; };
+		8C1CB8E81F84D8E8008A9B52 /* ActionUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ActionUtils.m; path = "Live Photo Frame Picker Action/ActionUtils.m"; sourceTree = SOURCE_ROOT; };
+		8C1CB8E91F84D8E8008A9B52 /* ActionUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ActionUtils.h; path = "Live Photo Frame Picker Action/ActionUtils.h"; sourceTree = SOURCE_ROOT; };
+		8C1CB8EC1F85035F008A9B52 /* ActionFramePickerVCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ActionFramePickerVCCell.h; path = "Live Photo Frame Picker Action/ActionFramePickerVCCell.h"; sourceTree = SOURCE_ROOT; };
+		8C1CB8ED1F85035F008A9B52 /* ActionFramePickerVCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ActionFramePickerVCCell.m; path = "Live Photo Frame Picker Action/ActionFramePickerVCCell.m"; sourceTree = SOURCE_ROOT; };
+		8C240A9D1EF947B2009ED314 /* candara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = candara.ttf; sourceTree = "<group>"; };
+		8C240A9E1EF947B2009ED314 /* ocrastd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocrastd.otf; sourceTree = "<group>"; };
+		8C2766051EE7E9DC007CCEF2 /* Live Photo Frame Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Photo Frame Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2766091EE7E9DC007CCEF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; usesTabs = 1; };
+		8C27660B1EE7E9DC007CCEF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C27660C1EE7E9DC007CCEF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C27660E1EE7E9DC007CCEF2 /* PermissionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermissionVC.h; sourceTree = "<group>"; };
+		8C27660F1EE7E9DC007CCEF2 /* PermissionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermissionVC.m; sourceTree = "<group>"; };
+		8C2766121EE7E9DC007CCEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C2766151EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Live_Photo_Frame_Picker.xcdatamodel; sourceTree = "<group>"; };
+		8C27661A1EE7E9DC007CCEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C27661C1EE7E9DC007CCEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2766221EE7EABC007CCEF2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8C2766241EE7EB30007CCEF2 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		8C2766251EE7EB30007CCEF2 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		8C2766281EE801CD007CCEF2 /* LivePhotoPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePhotoPickerVC.h; sourceTree = "<group>"; };
+		8C2766291EE801CD007CCEF2 /* LivePhotoPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePhotoPickerVC.m; sourceTree = "<group>"; };
+		8C4A3CB41EF151AD00E9F37A /* Live Photo Frame Picker Message.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Live Photo Frame Picker Message.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4A3CB51EF151AD00E9F37A /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		8C4A3CB81EF151AE00E9F37A /* IMMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMMainVC.h; sourceTree = "<group>"; };
+		8C4A3CB91EF151AE00E9F37A /* IMMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMMainVC.m; sourceTree = "<group>"; };
+		8C4A3CBC1EF151AE00E9F37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8C4A3CBE1EF151AE00E9F37A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C4A3CC01EF151AE00E9F37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4A3CCD1EF159AA00E9F37A /* IMLivePhotoCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLivePhotoCVCell.h; sourceTree = "<group>"; };
+		8C4A3CCE1EF159AA00E9F37A /* IMLivePhotoCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLivePhotoCVCell.m; sourceTree = "<group>"; };
+		8C4A3CD51EF15F1700E9F37A /* IMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUtils.h; sourceTree = "<group>"; };
+		8C4A3CD61EF15F1700E9F37A /* IMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUtils.m; sourceTree = "<group>"; };
+		8C6D55DC1F827A7900EEC068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6F67991F8F8B410095A566 /* LivePhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivePhotoModel.h; sourceTree = "<group>"; };
+		8C6F679A1F8F8B410095A566 /* LivePhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoModel.m; sourceTree = "<group>"; };
+		8CA2DECC1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		8CA2DED11EEE7A60002754D5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8CA2DED31EEE7A6A002754D5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8CA2DED51EEE7A76002754D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8CA2DED71EEE7A7F002754D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8CA2DED91EEE7A87002754D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8CA2DEDB1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		8CA2DEE11EEE83CE002754D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8CA8EF401FA9D85500A2E25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB607651EF7D00B00A2A86C /* IMFramePickerVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFramePickerVCCell.h; sourceTree = "<group>"; };
+		8CB607661EF7D00B00A2A86C /* IMFramePickerVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMFramePickerVCCell.m; sourceTree = "<group>"; };
+		8CDD55341EE835DD0082775A /* LivePhotoCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePhotoCVCell.h; sourceTree = "<group>"; };
+		8CDD55351EE835DD0082775A /* LivePhotoCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePhotoCVCell.m; sourceTree = "<group>"; };
+		8CDE17E91F83757E00809855 /* LivePhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivePhotoModel.h; sourceTree = "<group>"; };
+		8CDE17EA1F83757E00809855 /* LivePhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoModel.m; sourceTree = "<group>"; };
+		8CDE17F01F83C87A00809855 /* Live Photo Frame Picker Action.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Live Photo Frame Picker Action.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDE17F21F83C87A00809855 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		8CDE17F31F83C87A00809855 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		8CDE17F61F83C87A00809855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8CDE17F81F83C87B00809855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE3CE0C1EE936670049CC86 /* PreviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewVC.h; sourceTree = "<group>"; };
+		8CE3CE0D1EE936670049CC86 /* PreviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewVC.m; sourceTree = "<group>"; };
+		8CE3CE101EE95ED60049CC86 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		8CE3CE111EE95ED60049CC86 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		A0D398804CB0725A1467409C /* Pods_Live_Photo_Frame_Picker_Action.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_Photo_Frame_Picker_Action.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C857F3EDFF53AF1E834F96D0 /* Pods-Live Photo Frame Picker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Photo Frame Picker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live Photo Frame Picker/Pods-Live Photo Frame Picker.debug.xcconfig"; sourceTree = "<group>"; };
+		E53DCF60F49B926189ACC682 /* Pods-Live Photo Frame Picker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Photo Frame Picker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live Photo Frame Picker/Pods-Live Photo Frame Picker.release.xcconfig"; sourceTree = "<group>"; };
+		FC9B04F03497E248CEEDDC93 /* Pods-Live Photo Frame Picker iMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Photo Frame Picker iMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live Photo Frame Picker iMessage/Pods-Live Photo Frame Picker iMessage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2766021EE7E9DC007CCEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA2DEDA1EEE7A87002754D5 /* SystemConfiguration.framework in Frameworks */,
+				8CA2DED81EEE7A7F002754D5 /* MobileCoreServices.framework in Frameworks */,
+				8CA2DED61EEE7A76002754D5 /* libz.tbd in Frameworks */,
+				8CA2DED41EEE7A6A002754D5 /* libsqlite3.tbd in Frameworks */,
+				8CA2DED21EEE7A60002754D5 /* libc++.tbd in Frameworks */,
+				8CE3CE121EE95ED60049CC86 /* Photos.framework in Frameworks */,
+				8CE3CE131EE95ED60049CC86 /* PhotosUI.framework in Frameworks */,
+				69635DDDFACDA25E5E70ACCD /* Pods_Live_Photo_Frame_Picker.framework in Frameworks */,
+				8CA2DEDC1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				8CA2DECD1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4A3CB11EF151AD00E9F37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4A3CB61EF151AD00E9F37A /* Messages.framework in Frameworks */,
+				B748FAE34A10035957C5FD45 /* Pods_Live_Photo_Frame_Picker_iMessage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDE17ED1F83C87A00809855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8FE0A1F83DDEB0005A695 /* Photos.framework in Frameworks */,
+				8CC8FE0B1F83DDEB0005A695 /* PhotosUI.framework in Frameworks */,
+				F91670806F0C3B3876D7C725 /* Pods_Live_Photo_Frame_Picker_Action.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1CB8E71F84D8D6008A9B52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CB8E91F84D8E8008A9B52 /* ActionUtils.h */,
+				8C1CB8E81F84D8E8008A9B52 /* ActionUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8C1CB8EB1F85033D008A9B52 /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CB8EC1F85035F008A9B52 /* ActionFramePickerVCCell.h */,
+				8C1CB8ED1F85035F008A9B52 /* ActionFramePickerVCCell.m */,
+			);
+			path = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		8C2765FC1EE7E9DC007CCEF2 = {
+			isa = PBXGroup;
+			children = (
+				8CA2DEDB1EEE7BA9002754D5 /* AdobeCreativeSDKImage.framework */,
+				8CA2DECC1EEE79CC002754D5 /* AdobeCreativeSDKCore.framework */,
+				8C2766221EE7EABC007CCEF2 /* PrefixHeader.pch */,
+				8C2766071EE7E9DC007CCEF2 /* Live Photo Frame Picker */,
+				8C4A3CB71EF151AD00E9F37A /* Live Photo Frame Picker iMessage */,
+				8CDE17F11F83C87A00809855 /* Live Photo Frame Picker Action */,
+				8C2766061EE7E9DC007CCEF2 /* Products */,
+				8CE3CE0F1EE95ED60049CC86 /* Frameworks */,
+				CF7E61681C639E47645ACDFA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2766061EE7E9DC007CCEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2766051EE7E9DC007CCEF2 /* Live Photo Frame Picker.app */,
+				8C4A3CB41EF151AD00E9F37A /* Live Photo Frame Picker Message.appex */,
+				8CDE17F01F83C87A00809855 /* Live Photo Frame Picker Action.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2766071EE7E9DC007CCEF2 /* Live Photo Frame Picker */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE17E81F83754800809855 /* Model */,
+				8CA2DEE41EEE8521002754D5 /* Language */,
+				8CDD55301EE8355D0082775A /* Supporting Classes */,
+				8C2766271EE80199007CCEF2 /* Controller */,
+				8C2766231EE7EB21007CCEF2 /* Utils */,
+				8C27660B1EE7E9DC007CCEF2 /* AppDelegate.h */,
+				8C27660C1EE7E9DC007CCEF2 /* AppDelegate.m */,
+				8C13DA2B1EF94D63004E4B72 /* MainIpad.storyboard */,
+				8C2766111EE7E9DC007CCEF2 /* Main.storyboard */,
+				8C2766191EE7E9DC007CCEF2 /* LaunchScreen.storyboard */,
+				8C27661C1EE7E9DC007CCEF2 /* Info.plist */,
+				8C2766141EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodeld */,
+				8C6D55DC1F827A7900EEC068 /* Assets.xcassets */,
+				8C2766081EE7E9DC007CCEF2 /* Supporting Files */,
+			);
+			path = "Live Photo Frame Picker";
+			sourceTree = "<group>";
+		};
+		8C2766081EE7E9DC007CCEF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C240A9D1EF947B2009ED314 /* candara.ttf */,
+				8C240A9E1EF947B2009ED314 /* ocrastd.otf */,
+				8C2766091EE7E9DC007CCEF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C2766231EE7EB21007CCEF2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8C2766241EE7EB30007CCEF2 /* Utils.h */,
+				8C2766251EE7EB30007CCEF2 /* Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8C2766271EE80199007CCEF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C27660E1EE7E9DC007CCEF2 /* PermissionVC.h */,
+				8C27660F1EE7E9DC007CCEF2 /* PermissionVC.m */,
+				8C2766281EE801CD007CCEF2 /* LivePhotoPickerVC.h */,
+				8C2766291EE801CD007CCEF2 /* LivePhotoPickerVC.m */,
+				8CE3CE0C1EE936670049CC86 /* PreviewVC.h */,
+				8CE3CE0D1EE936670049CC86 /* PreviewVC.m */,
+				8C199CD91EEAE0F000CAF416 /* FramePickerVC.h */,
+				8C199CDA1EEAE0F000CAF416 /* FramePickerVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8C4A3CB71EF151AD00E9F37A /* Live Photo Frame Picker iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				8C6F67981F8F8B340095A566 /* Model */,
+				8CE779E11F0675F4007EC1C1 /* Supporting Files */,
+				8C4A3CD41EF15EE000E9F37A /* Utils */,
+				8C4A3CCC1EF1596800E9F37A /* Supporting Classes */,
+				8C4A3CC81EF1547400E9F37A /* Controller */,
+				8C4A3CBB1EF151AE00E9F37A /* MainInterface.storyboard */,
+				8C4A3CBE1EF151AE00E9F37A /* Assets.xcassets */,
+				8C4A3CC01EF151AE00E9F37A /* Info.plist */,
+			);
+			path = "Live Photo Frame Picker iMessage";
+			sourceTree = "<group>";
+		};
+		8C4A3CC81EF1547400E9F37A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A3CB81EF151AE00E9F37A /* IMMainVC.h */,
+				8C4A3CB91EF151AE00E9F37A /* IMMainVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8C4A3CCC1EF1596800E9F37A /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A3CCD1EF159AA00E9F37A /* IMLivePhotoCVCell.h */,
+				8C4A3CCE1EF159AA00E9F37A /* IMLivePhotoCVCell.m */,
+				8CB607651EF7D00B00A2A86C /* IMFramePickerVCCell.h */,
+				8CB607661EF7D00B00A2A86C /* IMFramePickerVCCell.m */,
+			);
+			name = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		8C4A3CD41EF15EE000E9F37A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A3CD51EF15F1700E9F37A /* IMUtils.h */,
+				8C4A3CD61EF15F1700E9F37A /* IMUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8C6F67981F8F8B340095A566 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C6F67991F8F8B410095A566 /* LivePhotoModel.h */,
+				8C6F679A1F8F8B410095A566 /* LivePhotoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8CA2DEE41EEE8521002754D5 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2DEE21EEE83CE002754D5 /* Localizable.strings */,
+			);
+			name = Language;
+			sourceTree = "<group>";
+		};
+		8CDD55301EE8355D0082775A /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CDD55341EE835DD0082775A /* LivePhotoCVCell.h */,
+				8CDD55351EE835DD0082775A /* LivePhotoCVCell.m */,
+				8C199CDC1EEAF01200CAF416 /* FramePickerVCCell.h */,
+				8C199CDD1EEAF01200CAF416 /* FramePickerVCCell.m */,
+			);
+			name = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		8CDE17E81F83754800809855 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE17E91F83757E00809855 /* LivePhotoModel.h */,
+				8CDE17EA1F83757E00809855 /* LivePhotoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8CDE17F11F83C87A00809855 /* Live Photo Frame Picker Action */ = {
+			isa = PBXGroup;
+			children = (
+				8CA8EF401FA9D85500A2E25B /* Assets.xcassets */,
+				8C1CB8EB1F85033D008A9B52 /* Supporting Classes */,
+				8C1CB8E71F84D8D6008A9B52 /* Utils */,
+				8CDE17F21F83C87A00809855 /* ActionViewController.h */,
+				8CDE17F31F83C87A00809855 /* ActionViewController.m */,
+				8CDE17F51F83C87A00809855 /* MainInterface.storyboard */,
+				8CDE17F81F83C87B00809855 /* Info.plist */,
+			);
+			path = "Live Photo Frame Picker Action";
+			sourceTree = "<group>";
+		};
+		8CE3CE0F1EE95ED60049CC86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2DED91EEE7A87002754D5 /* SystemConfiguration.framework */,
+				8CA2DED71EEE7A7F002754D5 /* MobileCoreServices.framework */,
+				8CA2DED51EEE7A76002754D5 /* libz.tbd */,
+				8CA2DED31EEE7A6A002754D5 /* libsqlite3.tbd */,
+				8CA2DED11EEE7A60002754D5 /* libc++.tbd */,
+				8CE3CE101EE95ED60049CC86 /* Photos.framework */,
+				8CE3CE111EE95ED60049CC86 /* PhotosUI.framework */,
+				301587ACDCC63E1DC03FD7AA /* Pods_Live_Photo_Frame_Picker.framework */,
+				8C4A3CB51EF151AD00E9F37A /* Messages.framework */,
+				38753B0E63CFA648F1F5CE83 /* Pods_Live_Photo_Frame_Picker_iMessage.framework */,
+				A0D398804CB0725A1467409C /* Pods_Live_Photo_Frame_Picker_Action.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE779E11F0675F4007EC1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF7E61681C639E47645ACDFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C857F3EDFF53AF1E834F96D0 /* Pods-Live Photo Frame Picker.debug.xcconfig */,
+				E53DCF60F49B926189ACC682 /* Pods-Live Photo Frame Picker.release.xcconfig */,
+				2C42ADA37502BE69D413903D /* Pods-Live Photo Frame Picker iMessage.debug.xcconfig */,
+				FC9B04F03497E248CEEDDC93 /* Pods-Live Photo Frame Picker iMessage.release.xcconfig */,
+				133F56427D3EA8346A4EAEB7 /* Pods-Live Photo Frame Picker Action.debug.xcconfig */,
+				75CA760415868B245ECED0F8 /* Pods-Live Photo Frame Picker Action.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2766041EE7E9DC007CCEF2 /* Live Photo Frame Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C27661F1EE7E9DC007CCEF2 /* Build configuration list for PBXNativeTarget "Live Photo Frame Picker" */;
+			buildPhases = (
+				81E836A99C71D766502A1EAF /* [CP] Check Pods Manifest.lock */,
+				8C2766011EE7E9DC007CCEF2 /* Sources */,
+				8C2766021EE7E9DC007CCEF2 /* Frameworks */,
+				8C2766031EE7E9DC007CCEF2 /* Resources */,
+				66E0357D5819626987285489 /* [CP] Embed Pods Frameworks */,
+				76A221AAA4D748CCDAD984D1 /* [CP] Copy Pods Resources */,
+				8CA2DECF1EEE79CD002754D5 /* Embed Frameworks */,
+				8CA2DED01EEE79EC002754D5 /* ShellScript */,
+				8C4A3CC71EF151AE00E9F37A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4A3CC21EF151AE00E9F37A /* PBXTargetDependency */,
+				8CDE17FA1F83C87B00809855 /* PBXTargetDependency */,
+			);
+			name = "Live Photo Frame Picker";
+			productName = "Live Photo Frame Picker";
+			productReference = 8C2766051EE7E9DC007CCEF2 /* Live Photo Frame Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C4A3CB31EF151AD00E9F37A /* Live Photo Frame Picker Message */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4A3CC61EF151AE00E9F37A /* Build configuration list for PBXNativeTarget "Live Photo Frame Picker Message" */;
+			buildPhases = (
+				297BCB5E1DFA31892A31570D /* [CP] Check Pods Manifest.lock */,
+				8C4A3CB01EF151AD00E9F37A /* Sources */,
+				8C4A3CB11EF151AD00E9F37A /* Frameworks */,
+				8C4A3CB21EF151AD00E9F37A /* Resources */,
+				D9BE0FD04BAD9C946ED2ACCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Live Photo Frame Picker Message";
+			productName = "Live Photo Frame Picker iMessage";
+			productReference = 8C4A3CB41EF151AD00E9F37A /* Live Photo Frame Picker Message.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		8CDE17EF1F83C87A00809855 /* Live Photo Frame Picker Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDE17FC1F83C87B00809855 /* Build configuration list for PBXNativeTarget "Live Photo Frame Picker Action" */;
+			buildPhases = (
+				6DB415A5292CB7681C0DB75C /* [CP] Check Pods Manifest.lock */,
+				8CDE17EC1F83C87A00809855 /* Sources */,
+				8CDE17ED1F83C87A00809855 /* Frameworks */,
+				8CDE17EE1F83C87A00809855 /* Resources */,
+				D28F4937C113ECBE85FFEA24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Live Photo Frame Picker Action";
+			productName = "Live Photo Frame Picker Action";
+			productReference = 8CDE17F01F83C87A00809855 /* Live Photo Frame Picker Action.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2765FD1EE7E9DC007CCEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Apps & Games";
+				TargetAttributes = {
+					8C2766041EE7E9DC007CCEF2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T24WE95KS9;
+						ProvisioningStyle = Manual;
+					};
+					8C4A3CB31EF151AD00E9F37A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T24WE95KS9;
+						ProvisioningStyle = Manual;
+					};
+					8CDE17EF1F83C87A00809855 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = T24WE95KS9;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8C2766001EE7E9DC007CCEF2 /* Build configuration list for PBXProject "Live Photo Frame Picker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C2765FC1EE7E9DC007CCEF2;
+			productRefGroup = 8C2766061EE7E9DC007CCEF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2766041EE7E9DC007CCEF2 /* Live Photo Frame Picker */,
+				8C4A3CB31EF151AD00E9F37A /* Live Photo Frame Picker Message */,
+				8CDE17EF1F83C87A00809855 /* Live Photo Frame Picker Action */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2766031EE7E9DC007CCEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24186F1F94DBAE0093A4EA /* Assets.xcassets in Resources */,
+				8C240A9F1EF947B2009ED314 /* candara.ttf in Resources */,
+				8C27661B1EE7E9DC007CCEF2 /* LaunchScreen.storyboard in Resources */,
+				8C240AA11EF947B2009ED314 /* ocrastd.otf in Resources */,
+				8CA2DEE01EEE83CE002754D5 /* Localizable.strings in Resources */,
+				8C13DA2D1EF94D63004E4B72 /* MainIpad.storyboard in Resources */,
+				8C2766131EE7E9DC007CCEF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4A3CB21EF151AD00E9F37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D0F8C1FA1F03800823F98 /* Assets.xcassets in Resources */,
+				8C4A3CBD1EF151AE00E9F37A /* MainInterface.storyboard in Resources */,
+				8C240AA21EF947B2009ED314 /* ocrastd.otf in Resources */,
+				8C240AA01EF947B2009ED314 /* candara.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDE17EE1F83C87A00809855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1CB8E61F84D470008A9B52 /* Assets.xcassets in Resources */,
+				8CA8EF411FA9D85500A2E25B /* Assets.xcassets in Resources */,
+				8CDE17F71F83C87A00809855 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297BCB5E1DFA31892A31570D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live Photo Frame Picker iMessage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E0357D5819626987285489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Live Photo Frame Picker/Pods-Live Photo Frame Picker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MKDropdownMenu/MKDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/NSGIF/NSGIF.framework",
+				"${BUILT_PRODUCTS_DIR}/UIGifImage/UIGifImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSGIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIGifImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Live Photo Frame Picker/Pods-Live Photo Frame Picker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB415A5292CB7681C0DB75C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live Photo Frame Picker Action-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76A221AAA4D748CCDAD984D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Live Photo Frame Picker/Pods-Live Photo Frame Picker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E836A99C71D766502A1EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live Photo Frame Picker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA2DED01EEE79EC002754D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh\"";
+		};
+		D28F4937C113ECBE85FFEA24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Live Photo Frame Picker Action/Pods-Live Photo Frame Picker Action-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BE0FD04BAD9C946ED2ACCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Live Photo Frame Picker iMessage/Pods-Live Photo Frame Picker iMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2766011EE7E9DC007CCEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C199CDB1EEAE0F000CAF416 /* FramePickerVC.m in Sources */,
+				8C2766161EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodeld in Sources */,
+				8C27662A1EE801CD007CCEF2 /* LivePhotoPickerVC.m in Sources */,
+				8CDD55361EE835DD0082775A /* LivePhotoCVCell.m in Sources */,
+				8C2766101EE7E9DC007CCEF2 /* PermissionVC.m in Sources */,
+				8C27660D1EE7E9DC007CCEF2 /* AppDelegate.m in Sources */,
+				8C199CDE1EEAF01200CAF416 /* FramePickerVCCell.m in Sources */,
+				8C2766261EE7EB30007CCEF2 /* Utils.m in Sources */,
+				8CDE17EB1F83757E00809855 /* LivePhotoModel.m in Sources */,
+				8C27660A1EE7E9DC007CCEF2 /* main.m in Sources */,
+				8CE3CE0E1EE936670049CC86 /* PreviewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4A3CB01EF151AD00E9F37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6F679B1F8F9CC10095A566 /* LivePhotoModel.m in Sources */,
+				8CB607671EF7D00B00A2A86C /* IMFramePickerVCCell.m in Sources */,
+				8C4A3CBA1EF151AE00E9F37A /* IMMainVC.m in Sources */,
+				8C4A3CD71EF15F1700E9F37A /* IMUtils.m in Sources */,
+				8C4A3CCF1EF159AA00E9F37A /* IMLivePhotoCVCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDE17EC1F83C87A00809855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1CB8EE1F85090A008A9B52 /* ActionFramePickerVCCell.m in Sources */,
+				8C1CB8EA1F84DACA008A9B52 /* ActionUtils.m in Sources */,
+				8CDE17F41F83C87A00809855 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C4A3CC21EF151AE00E9F37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4A3CB31EF151AD00E9F37A /* Live Photo Frame Picker Message */;
+			targetProxy = 8C4A3CC11EF151AE00E9F37A /* PBXContainerItemProxy */;
+		};
+		8CDE17FA1F83C87B00809855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDE17EF1F83C87A00809855 /* Live Photo Frame Picker Action */;
+			targetProxy = 8CDE17F91F83C87B00809855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C13DA2B1EF94D63004E4B72 /* MainIpad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C13DA2C1EF94D63004E4B72 /* Base */,
+			);
+			name = MainIpad.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2766111EE7E9DC007CCEF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2766121EE7E9DC007CCEF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2766191EE7E9DC007CCEF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C27661A1EE7E9DC007CCEF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C4A3CBB1EF151AE00E9F37A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4A3CBC1EF151AE00E9F37A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		8CA2DEE21EEE83CE002754D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA2DEE11EEE83CE002754D5 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8CDE17F51F83C87A00809855 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDE17F61F83C87A00809855 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C27661D1EE7E9DC007CCEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C27661E1EE7E9DC007CCEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2766201EE7E9DC007CCEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C857F3EDFF53AF1E834F96D0 /* Pods-Live Photo Frame Picker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T24WE95KS9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "Live Photo Frame Picker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"NSGIF\"",
+					"-framework",
+					"\"UIGifImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56d45b19-9486-439b-b184-143f9f6efef3";
+				PROVISIONING_PROFILE_SPECIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker AppStore";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8C2766211EE7E9DC007CCEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53DCF60F49B926189ACC682 /* Pods-Live Photo Frame Picker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T24WE95KS9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "Live Photo Frame Picker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"NSGIF\"",
+					"-framework",
+					"\"UIGifImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56d45b19-9486-439b-b184-143f9f6efef3";
+				PROVISIONING_PROFILE_SPECIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker AppStore";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		8C4A3CC41EF151AE00E9F37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C42ADA37502BE69D413903D /* Pods-Live Photo Frame Picker iMessage.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T24WE95KS9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "Live Photo Frame Picker iMessage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"NSGIF\"",
+					"-framework",
+					"\"UIGifImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-iMessage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b4f8c01-df90-4c55-bbc6-a07463c0a7e1";
+				PROVISIONING_PROFILE_SPECIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-iMessage AppStore";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8C4A3CC51EF151AE00E9F37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9B04F03497E248CEEDDC93 /* Pods-Live Photo Frame Picker iMessage.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T24WE95KS9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "Live Photo Frame Picker iMessage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"NSGIF\"",
+					"-framework",
+					"\"UIGifImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-iMessage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b4f8c01-df90-4c55-bbc6-a07463c0a7e1";
+				PROVISIONING_PROFILE_SPECIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-iMessage AppStore";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		8CDE17FD1F83C87B00809855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133F56427D3EA8346A4EAEB7 /* Pods-Live Photo Frame Picker Action.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T24WE95KS9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "Live Photo Frame Picker Action/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a276cb0b-a9b6-43f5-9a12-e656a6559a5f";
+				PROVISIONING_PROFILE_SPECIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-Action AppStore";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8CDE17FE1F83C87B00809855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CA760415868B245ECED0F8 /* Pods-Live Photo Frame Picker Action.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T24WE95KS9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "Live Photo Frame Picker Action/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a276cb0b-a9b6-43f5-9a12-e656a6559a5f";
+				PROVISIONING_PROFILE_SPECIFIER = "naji.appsandgamesinc.com.Live-Photo-Frame-Picker.Live-Photo-Frame-Picker-Action AppStore";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2766001EE7E9DC007CCEF2 /* Build configuration list for PBXProject "Live Photo Frame Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C27661D1EE7E9DC007CCEF2 /* Debug */,
+				8C27661E1EE7E9DC007CCEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C27661F1EE7E9DC007CCEF2 /* Build configuration list for PBXNativeTarget "Live Photo Frame Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2766201EE7E9DC007CCEF2 /* Debug */,
+				8C2766211EE7E9DC007CCEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4A3CC61EF151AE00E9F37A /* Build configuration list for PBXNativeTarget "Live Photo Frame Picker Message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4A3CC41EF151AE00E9F37A /* Debug */,
+				8C4A3CC51EF151AE00E9F37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDE17FC1F83C87B00809855 /* Build configuration list for PBXNativeTarget "Live Photo Frame Picker Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDE17FD1F83C87B00809855 /* Debug */,
+				8CDE17FE1F83C87B00809855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C2766141EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C2766151EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodel */,
+			);
+			currentVersion = 8C2766151EE7E9DC007CCEF2 /* Live_Photo_Frame_Picker.xcdatamodel */;
+			path = Live_Photo_Frame_Picker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C2765FD1EE7E9DC007CCEF2 /* Project object */;
+}

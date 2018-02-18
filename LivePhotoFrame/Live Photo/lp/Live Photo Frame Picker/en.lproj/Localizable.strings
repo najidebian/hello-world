@@ -1,0 +1,9 @@
+/* 
+  localizable.strings
+  Live Photo Frame Picker
+
+  Created by Marwan Harb on 6/12/17.
+  Copyright © 2017 Apps & Games. All rights reserved.
+*/
+
+"GRANT_ACCESS" = "Unfortunately, this application requires access to the gallery.\n\nPress the button below to grant access to the gallery.";

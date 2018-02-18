@@ -1,0 +1,13 @@
+Adobe Creative SDK
+
+API Key (Client ID)
+fc9a2e6ff7bf4533a95f4525a3494759
+
+Client secret
+41ff733e-8368-4aa4-a64e-9cbecc57ee68
+
+Default redirect URI 
+ams+3d86d5babe7227e700064c1c46ffcf0a9a34f8d3://adobeid/fc9a2e6ff7bf4533a95f4525a3494759
+
+Redirect URI pattern 
+ams+3d86d5babe7227e700064c1c46ffcf0a9a34f8d3://adobeid/fc9a2e6ff7bf4533a95f4525a3494759

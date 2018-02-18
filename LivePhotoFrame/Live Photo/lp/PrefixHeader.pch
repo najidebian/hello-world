@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  Live Photo Frame Picker
+//
+//  Created by Marwan Harb on 6/7/17.
+//  Copyright © 2017 Apps & Games. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//Colour definitions
+#define COLOUR_NAVBAR_BG "#DB4F5F"
+#define COLOUR_NAVBAR_TITLE "#FFFFFF"
+#define COLOUR_NAVBAR_TINT "#FFFFFF"
+
+#define COLOUR_PERMISSION_VC_BG "#EBEBED"
+#define COLOUR_PERMISSION_VC_BUTTON_BG "#DB4F5F"
+#define COLOUR_PERMISSION_VC_BUTTON_TEXT "#FFFFFF"
+
+#define COLOUR_LIVE_PHOTO_PICKER_VC_BG "#EBEBED"
+#define COLOUR_LIVE_PHOTO_PICKER_CELL_BORDER "#DB4F5F"
+
+#define COLOUR_PREVIEW_VC_BG "#999999"
+#define COLOUR_PREVIEW_VC_TOOLBAR_BG "#DB4F5F"
+#define COLOUR_PREVIEW_VC_TEXT "#DB4F5F"
+#define COLOUR_PREVIEW_VC_TOOLBAR_BUTTON_BG "#DB4F5F"
+#define COLOUR_PREVIEW_VC_TOOLBAR_TEXT "#FFFFFF"
+
+#define COLOUR_FRAME_PICKER_VC_BG "#999999"
+#define COLOUR_FRAME_PICKER_VC_TOOLBAR_BG "#666666"
+#define COLOUR_FRAME_PICKER_VC_TOOLBAR_BUTTON_BG "#DB4F5F"
+#define COLOUR_FRAME_PICKER_VC_TOOLBAR_BUTTON_TEXT "#FFFFFF"
+
+//Adobe Creative SDK definitions
+#define API_CLIENT_ID "fc9a2e6ff7bf4533a95f4525a3494759"
+#define CLIENT_SECRET "41ff733e-8368-4aa4-a64e-9cbecc57ee68"
+#define REDIRECT_URL "ams+3d86d5babe7227e700064c1c46ffcf0a9a34f8d3://adobeid/fc9a2e6ff7bf4533a95f4525a3494759"
+
+#endif /* PrefixHeader_pch */

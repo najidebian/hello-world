@@ -1,0 +1,6 @@
+framework module UIGifImage {
+  umbrella header "UIGifImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
